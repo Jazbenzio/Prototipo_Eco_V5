@@ -1,0 +1,12 @@
+PySide6
+mss
+opencv-python
+mediapipe
+numpy
+Pillow
+faster-whisper
+sounddevice
+edge-tts
+pyttsx3
+anthropic
+python-dotenv
