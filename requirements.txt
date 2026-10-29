@@ -8,5 +8,7 @@ faster-whisper
 sounddevice
 edge-tts
 pyttsx3
-anthropic
+google-genai
 python-dotenv
+pyautogui
+pyperclip

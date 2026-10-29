@@ -1,13 +1,16 @@
-"""Punto de entrada: une visión, voz/cerebro y UI/memoria."""
+"""Punto de entrada: abre la barra flotante de Eco."""
 import sys
+
 from PySide6.QtWidgets import QApplication
-from ui.ventana_principal import VentanaPrincipal
+
+from ui.barra_eco import BarraEco
 
 
 def main():
     app = QApplication(sys.argv)
-    ventana = VentanaPrincipal()
-    ventana.show()
+    app.setQuitOnLastWindowClosed(False)   # Eco sigue en la bandeja aunque se oculte la barra
+    barra = BarraEco()
+    barra.show()
     sys.exit(app.exec())
 
 
